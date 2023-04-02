@@ -6,7 +6,9 @@ This a collection which contains part of my scripts.
 
 - THEOL
   - Post login request to eol of CDNU
-  - [TO BE DONE] Parse the homework list. 
+  - [ ] Parse the homework list. 
+- CopyTex script for tampermonkey
+  - Support zhihu, wikipedia
 
 ## Usage
 
@@ -18,3 +20,7 @@ login = Login()
 login.login('Your username', 'Your password')
 le.tostring(login.hwlist()[0])
 ```
+
+- CopyTex
+
+
